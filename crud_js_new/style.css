@@ -3,9 +3,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.div_form{
+    background-color: antiquewhite;
+    height: 944px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form_div{
+    border: solid 1px black;
+    width: 400px;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.form_input{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 5px;
+    border: 1px solid black;
+}
+.form_button{
+    margin-left: 75px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    background-color: white;
+}
 .input{
-    border: 1px solid green;
+    border: 2px solid green;
 }
 .input_rojo{
-    border: 1px solid red;
+    border: 2px solid red;
 }

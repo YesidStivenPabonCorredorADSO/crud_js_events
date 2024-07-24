@@ -7,42 +7,41 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <form action="" for="">
-            <label for="name" >Nombre</label>
-            <input type="text" id="name">
+    <div class=" div_form">
+        <h1>Formulario</h1>
+        <form class="form_div" action="" for="">
+            <br>
+            <label class="name" for="name" >Nombre</label>
+            <input class="form_input" type="text" id="name" placeholder="Ingrese su nombre"><br>
             <!-- El nombre -->
-            <br>
             <label for="apellido">Apellido</label>
-            <input type="text"id="apellido">
+            <input class="form_input" type="text"id="apellido" placeholder="Ingrese su apellido"><br>
             <!-- Apellido -->
-            <br>
+
             <label for="numero">Telefono</label>
-            <input type="text" id="numero">
+            <input class="form_input" type="text" id="numero" placeholder="Ingrese su numero de Telefono"><br>
             <!-- Telefono -->
-            <br>
             <label for="Direccion">Direccion</label>
-            <input type="text" id="Direccion">
+            <input class="form_input" type="text" id="Direccion" placeholder="Ingrese su Direccion"><br>
             <!-- Direccion -->
-            <br>
             <label for="">Tipo de Documento</label>
-            <select name="" id="tipo_documento">
-                <option value="">Seleccione..</option>
-                <option value="">T.I</option>
-                <option value="">C.C</option>
-            </select>
+            <select class="form_input" name="" id="tipo_documento"><br>
+                <option value="seleccione">Seleccione..</option>
+                <option value="T.I">T.I</option>
+                <option value="C.C">C.C</option>
+            </select><br>
             <!-- Tipo de Documento -->
-            <br>
-            <label for="">Documento</label>
-            <input type="text" id="documento">
+            <label for="documento">Documento</label>
+            <input class="form_input" type="text" id="documento" placeholder="Ingrese su Documento de Indentidad"><br>
             <!-- Documento -->
-            <br>
-            <label for="">Email</label>
-            <input  type="text" id="email">
+            <label for="email">Email</label>
+            <input class="form_input" type="text" id="email" placeholder="Ingrese su Correo eletronico"><br>
             <!-- Email -->
-            <br>
-            <input type="checkbox">
-            <button type="submit">Enviar</button>
+            <div>
+                <input type="checkbox" id="checkbox">
+                <label for="">Aceptar Terminos y condiciones </label>
+            </div>
+            <button type="submit" class="form_button" disabled>Registrar</button>
 
         </form>
     </div>
